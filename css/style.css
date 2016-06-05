@@ -1,0 +1,135 @@
+.content {
+    width: 970px;
+    margin: 0 auto;
+    padding: 0px 15px;
+	box-sizing: border-box;
+    font-family: Gentium Basic, sans-serif;
+}
+
+.center-text {
+    text-align: center
+}
+
+header {
+    height: 435px;
+    color:  white;
+    background-image: url("https://images.unsplash.com/reserve/D8ijGd3CSGq4BxJ9EzTf_13976945916_fa0ce84ee3_o.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=8b802edc366050236570a281a7c808ad");
+    background-size: cover;
+    margin-top: -2em;
+}
+
+.masthead-intro {
+    padding-top: 2.75em;
+    font-size: 2em;
+}
+
+.masthead-name {
+    font-family: Open Sans, sans-serif;
+    letter-spacing: .05em;
+    font-size: 4em;
+    color: #FFEC02;
+}
+
+.masthead-elevator-pitch {
+    font-size: 1.9em;
+}
+
+.main-heading-text {
+    font-family: Open Sans, sans-serif;
+    letter-spacing: .04em;
+    margin-top: 2em;
+}
+
+.sub-heading-text {
+    font-family: Gentium Basic, sans-serif;
+    font-style: italic;
+    font-size: .9em;
+    letter-spacing: .04em;
+    color: #FFEC02;
+    margin-top: 2em;
+}
+
+.mid-banner {
+    height: 435px;
+    background-image: url("https://images.unsplash.com/reserve/D8ijGd3CSGq4BxJ9EzTf_13976945916_fa0ce84ee3_o.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=8b802edc366050236570a281a7c808ad");
+    background-size: cover;
+    margin-top: -3em;
+}
+
+.mid-banner-text {
+    padding-top: 2.5em;
+    font-size: 4em;
+    color: #FFEC02;
+    animation-name: titleAnimation;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-direction: up;
+}
+
+@keyframes titleAnimation {
+    from {
+        bottom: 0px;
+    }
+    to {
+        bottom: 217.5px;
+    }
+}
+
+footer {
+    height: 300px;
+    margin-bottom: 1.5em;
+}
+
+hr {
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+
+.projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-left: -3.5em;
+}
+
+.projects-list > li {
+    margin-left: .6em;
+    font-size: 1.8em;
+}
+
+.project-titles {
+    font-family: Open Sans, sans-serif;
+    font-size: 1em;
+    letter-spacing: .04em;
+    margin-top: 2em;
+}
+
+.icons {
+    display: inline-flex;
+    list-style: none;
+    margin-right: 4.5em;
+}
+
+.icons li {
+    margin-left: 2em;
+}
+
+.icons a {
+    color: #FFEC02;
+}
+
+@media only screen and (max-device-width: 450px) {
+    .masthead-intro {
+        font-size: 2.2em;
+    }
+    .masthead-elevator-pitch {
+        font-size: 2em;
+    }
+    footer .say-hello {
+        font-size: 1.8em;
+    }
+    footer .images-from {
+        font-size: 1.5em;
+    }
+}
+
